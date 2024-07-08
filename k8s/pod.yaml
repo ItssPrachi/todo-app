@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: todo-flask-pod
+spec:
+  containers:
+  - name: todo-app
+    image: ankur136/blog-flask-todo:version1
+    ports:
+    - containerPort: 8000
