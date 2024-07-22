@@ -7,7 +7,7 @@ python -m venv venv
 ### Activate the Virtual Environment
 Before you work on your project, activate the corresponding environment:
 ```bash
-source venv/bin/activate
+source venv/Scripts/activate
 ```
 
 ### Install Dependencies
